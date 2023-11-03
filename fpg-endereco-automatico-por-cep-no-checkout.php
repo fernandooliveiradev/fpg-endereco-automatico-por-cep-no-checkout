@@ -11,7 +11,6 @@
  * Author URI: https://fernandopaglacci.com.br
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI: https://github.com/fernandopaglacci/fpg-endereco-automatico-por-cep-no-checkout
  * Text Domain: fpg-automatic-address
  *
  * @package FPG_endereco_automatico_por_cep_no_checkout
