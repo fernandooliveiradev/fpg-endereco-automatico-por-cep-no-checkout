@@ -1,15 +1,15 @@
 === FPG - Endereço automático por Cep no Checkout ===
 
-Contribuidores: fernandopaglacci
-Tags: WooCommerce, endereço automático, CEP, BrasilAPI
-Doações: https://fernandopaglacci.com.br
+Contribuidores: fernandooliveira
+Tags: WooCommerce, endereço automático, CEP, viaCEP, correios
+Doações: https://fernandooliveira.dev.br
 Requires at least: 6.0
-Tested up to: 6.4
-Stable tag: 1.0.1
+Tested up to: 6.5
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adiciona preenchimento automático de endereço com base no CEP no formulário de checkout WooCommerce usando BrasilAPI.
+Adiciona preenchimento automático de endereço com base no CEP no formulário de checkout WooCommerce usando webservice de CEP.
 
 == Descrição ==
 
@@ -32,14 +32,13 @@ Após a ativação, o plugin automaticamente aprimora o formulário de finaliza�
 
 === Como este plugin funciona? ===
 
-O plugin se conecta à BrasilAPI, um serviço que traz uma vantagem significativa ao processo de preenchimento de endereços. Com base no CEP inserido, a BrasilAPI busca automaticamente detalhes precisos, como cidade, rua, bairro e estado. Imagine não precisar mais digitar manualmente todas essas informações!
+O plugin se conecta com o webservice da viaCEP, um serviço que traz uma vantagem significativa ao processo de preenchimento de endereços. Com base no CEP inserido, a BrasilAPI busca automaticamente detalhes precisos, como cidade, rua, bairro e estado.
 
-Além disso, a BrasilAPI é aprimorada com a versão 2 do serviço de busca por CEP, que inclui múltiplos providers de fallback. Isso significa que, mesmo se um serviço estiver temporariamente indisponível, o plugin ainda terá a capacidade de buscar as informações necessárias, garantindo uma experiência de usuário consistente e confiável.
 
 == Histórico de Alterações ==
 
-= 1.0.0 =
-* Versão inicial.
+= 1.1.0 =
+* Nova Versão.
 
 == Suporte ==
 
@@ -51,12 +50,12 @@ GPL-2.0-or-later
 
 == Créditos ==
 
-* Autor: Fernando Paglacci
-* Integração da API: BrasilAPI
+* Autor: Fernando Oliveira
+* Integração da API: viaCEP
 
 == Contato e Outros Projetos ==
 
 Para mais informações sobre mim e outros projetos, visite:
 
-* **Site:** [fernandopaglacci.com.br](https://fernandopaglacci.com.br)
+* **Site:** [fernandopaglacci.com.br](https://fernandooliveira.dev.br)
 * **GitHub:** [github.com/fernandopaglacci](https://github.com/fernandopaglacci)
