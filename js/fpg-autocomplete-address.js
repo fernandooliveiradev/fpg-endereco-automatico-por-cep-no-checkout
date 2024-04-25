@@ -11,19 +11,19 @@ jQuery(document).ready(function ($) {
         });
 
         $.ajax({
-            url: 'https://brasilapi.com.br/api/cep/v2/' + cep + '?_=' + new Date().getTime(),
+            url: 'https://viacep.com.br/ws/' + cep + '/json/',
             method: 'GET',
             dataType: 'json',
             success: function (data) {
-                if (data && data.state && data.city && data.neighborhood && data.street) {
+                if (data && data.uf && data.localidade && data.bairro && data.logradouro) {
                     // Preenche os campos de endereço com os dados obtidos da API
-                    $(`#${prefix}_state`).val(data.state).change();
+                    $(`#${prefix}_state`).val(data.uf).change();
                     setTimeout(function () {
                         $(`#${prefix}_state`).trigger('chosen:updated');
                     }, 100);
-                    $(`#${prefix}_city`).val(data.city);
-                    $(`#${prefix}_neighborhood`).val(data.neighborhood);
-                    $(`#${prefix}_address_1`).val(data.street);
+                    $(`#${prefix}_city`).val(data.localidade);
+                    $(`#${prefix}_neighborhood`).val(data.bairro);
+                    $(`#${prefix}_address_1`).val(data.logradouro);
                 }
             },
             error: function (jqXHR, textStatus, errorThrown) {
