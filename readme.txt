@@ -1,19 +1,19 @@
 === FPG - Endereço automático por Cep no Checkout ===
 
 Contribuidores: fernandooliveira
-Tags: WooCommerce, endereço automático, CEP, viaCEP, correios
+Tags: WooCommerce, endereço automático, CEP, viaCEP, correios, autocep, endereço, address
 Doações: https://fernandooliveira.dev.br
 Requires at least: 6.0
-Tested up to: 6.5
-Stable tag: 1.1.0
+Tested up to: 6.6
+Stable tag: 1.1.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adiciona preenchimento automático de endereço com base no CEP no formulário de checkout WooCommerce usando webservice de CEP.
+Preenche o endereço, no checkout, automáticamente através do cep.
 
 == Descrição ==
 
-O FPG - Endereço automático por Cep no Checkout é um plugin que simplifica e agiliza o preenchimento do endereço no formulário de finalização de compra do WooCommerce. Com a integração da BrasilAPI, o plugin oferece aos usuários a conveniência de inserir apenas o CEP, enquanto o restante das informações de endereço, como cidade, rua, bairro e estado, é preenchido automaticamente. Isso não apenas melhora a experiência do cliente, mas também reduz erros de digitação e aumenta a precisão das entregas.
+Ao informar o cep o plugin preenche automáticamente os campos: Endereço, cidade, rua, bairro e estado.
 
 == Instalação ==
 
@@ -25,19 +25,16 @@ O FPG - Endereço automático por Cep no Checkout é um plugin que simplifica e 
 == Compatibilidade ==
 
 Este plugin requer o WooCommerce instalado e ativado. Certifique-se de que você tenha o WooCommerce em execução para aproveitar ao máximo os recursos do FPG - Endereço automático por Cep no Checkout.
+Compatível com, Fluid Checkout, Brazilian Market on WooCommerce, Checkout Field Editor (Checkout Manager) for WooCommerce
 
 == Como Usar ==
 
 Após a ativação, o plugin automaticamente aprimora o formulário de finalização de compra com o autocompletar de endereço com base no CEP inserido.
 
-=== Como este plugin funciona? ===
-
-O plugin se conecta com o webservice da viaCEP, um serviço que traz uma vantagem significativa ao processo de preenchimento de endereços. Com base no CEP inserido, a BrasilAPI busca automaticamente detalhes precisos, como cidade, rua, bairro e estado.
-
 
 == Histórico de Alterações ==
 
-= 1.1.0 =
+= 1.1.4 =
 * Nova Versão.
 
 == Suporte ==
@@ -57,5 +54,5 @@ GPL-2.0-or-later
 
 Para mais informações sobre mim e outros projetos, visite:
 
-* **Site:** [fernandopaglacci.com.br](https://fernandooliveira.dev.br)
-* **GitHub:** [github.com/fernandopaglacci](https://github.com/fernandopaglacci)
+* **Site:** [fernandooliveira.dev.br](https://fernandooliveira.dev.br)
+* **GitHub:** [https://github.com/fernandooliveiradev](https://github.com/fernandooliveiradev)
