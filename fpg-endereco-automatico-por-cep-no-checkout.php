@@ -3,8 +3,8 @@
 /**
  * Plugin Name: FPG - Endereço automático por Cep no Checkout
  * Plugin URI: https://fernandooliveira.dev.br
- * Description: Adiciona preenchimento automático de endereço com base no CEP no formulário de checkout WooCommerce usando ViaCEP.
- * Version: 1.1.0
+ * Description: Adiciona preenchimento automático de endereço com base no CEP no checkout WooCommerce.
+ * Version: 1.1.4
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Fernando Oliveira
@@ -41,7 +41,7 @@ function fpg_autocomplete_address_script()
         'fpg-autocomplete-address', // Nome do identificador único do script
         plugin_dir_url(__FILE__) . 'js/fpg-autocomplete-address.js', // Caminho para o arquivo JS
         array('jquery'), // Dependência (neste caso, jQuery)
-        '1.0.0', // Versão do script
+        '1.1.4', // Versão do script
         true // Colocado  no rodapé da página
     );
 
